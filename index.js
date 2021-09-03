@@ -2075,9 +2075,10 @@ diff_lines_words.prototype.patch_fromText = function (textline) {
     textPointer++;
 
     while (textPointer < text.length) {
+      let line
       let sign = text[textPointer].charAt(0);
       try {
-        let line = decodeURI(text[textPointer].substring(1));
+        line = decodeURI(text[textPointer].substring(1));
       } catch (ex) {
         // Malformed URI sequence.
         throw new Error('Illegal escape in patch_fromText: ' + line);
