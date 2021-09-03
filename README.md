@@ -1,7 +1,7 @@
 # diff-lines-words
 Enhanced npm package for https://github.com/google/diff-lines-words, it supports to split text with lines or words.
 
-[![Build Status](https://img.shields.io/travis/kangchengkun/diff-lines-words/main.svg)](https://travis-ci.org/kangchengkun/diff-lines-words)
+[![Build Status](https://img.shields.io/travis/kangchengkun/diff-lines-words/main.svg)](https://travis-ci.com/kangchengkun/diff-lines-words)
 [![Dependency Status](https://img.shields.io/david/kangchengkun/diff-lines-words.svg)](https://david-dm.org/kangchengkun/diff-lines-words)
 [![NPM version](https://img.shields.io/npm/v/diff-lines-words.svg)](https://www.npmjs.com/package/diff-lines-words)
 [![Known Vulnerabilities](https://snyk.io/test/github/kangchengkun/diff-lines-words/badge.svg)](https://snyk.io/test/github/kangchengkun/diff-lines-words) 
