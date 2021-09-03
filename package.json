@@ -1,0 +1,25 @@
+{
+  "name": "diff-lines-words",
+  "version": "0.1.0",
+  "description": "Enhanced npm package for https://github.com/google/diff-match-patch, it supports to split text with lines or words.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kangchengkun/diff-lines-words.git"
+  },
+  "keywords": [
+    "js",
+    "diff",
+    "words",
+    "lines"
+  ],
+  "author": "460876880@qq.com",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/kangchengkun/diff-lines-words/issues"
+  },
+  "homepage": "https://github.com/kangchengkun/diff-lines-words#readme"
+}
