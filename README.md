@@ -12,13 +12,9 @@ Enhanced npm package for https://github.com/google/diff-lines-words, it supports
 npm install diff-lines-words
 ```
 
-## API
-
-[Source](https://github.com/google/diff-match-patch/wiki/API)
-
 ### Initialization
 
-The first step is to create a new `diff_match_patch` object. This object contains various properties which set the behaviour of the algorithms, as well as the following methods/functions:
+The first step is to create a new `diff_lines_words` object. This object contains various properties which set the behaviour of the algorithms, as well as the following methods/functions:
 
 ### diff_main(text1, text2) → diffs
 
@@ -36,7 +32,7 @@ Despite the large number of optimisations used in this function, diff can take a
 
 ```diff_words("Good dog", "Bad dog") → [(-1, "Good"), (0, "dog"), (1, "Bad")]```
 
-## Others
+## Others APIs
 
 Please refer to [Source](https://github.com/google/diff-match-patch/wiki/API).
 
