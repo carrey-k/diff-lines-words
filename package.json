@@ -4,7 +4,7 @@
   "description": "Enhanced npm package for https://github.com/google/diff-match-patch, it supports to split text with lines or words.",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "node test"
   },
   "repository": {
     "type": "git",
@@ -16,6 +16,10 @@
     "words",
     "lines"
   ],
+  "devDependencies": {
+    "testit": "^3.1.0"
+  },
+  "dependencies": {},
   "author": "460876880@qq.com",
   "license": "Apache-2.0",
   "bugs": {
